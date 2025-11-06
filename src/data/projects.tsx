@@ -47,6 +47,7 @@ import {
   SiRedux,
   SiMetabase,
   SiThemoviedatabase,
+  SiReact,
 } from "react-icons/si";
 import { RiNextjsFill, RiNodejsFill, RiReactjsFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -310,6 +311,8 @@ const PROJECT_SKILLS = {
     title: "React Native",
     bg: "black",
     fg: "white",
+      icon: <SiReact  />, // or use another icon like <SiReact /> if preferred
+
   },
   expo: {
     title: "Expo",
